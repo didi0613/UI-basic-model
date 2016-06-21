@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<img id="slideshow" width="200px" height="200px"
+     src="https://pbs.twimg.com/profile_images/723561620761391104/BQmg7aTz.jpg"/>
+
+<script>
+    var i = 0;
+    var imageSrc = [];
+    imageSrc[0] = "https://pbs.twimg.com/profile_images/723561620761391104/BQmg7aTz.jpg";
+    imageSrc[1] = "http://cliparts.co/cliparts/8c6/5ao/8c65aodgi.jpg";
+    imageSrc[2] = "https://upload.wikimedia.org/wikipedia/commons/d/dd/%C5%BDeljezni%C4%8Dki_most,_Mursko_Sredi%C5%A1%C4%87e_(Croatia).1.jpg";
+
+    function swapImage() {
+        if (i >= imageSrc.length - 1) {
+            i = 0;
+        } else {
+            i++;
+        }
+
+        document.getElementById("slideshow").src = imageSrc[i];
+
+        window.setTimeout(swapImage, 3000);
+    }
+
+    window.onload = swapImage;
+
+</script>
+
+</body>
+</html>
