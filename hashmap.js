@@ -1,3 +1,4 @@
+// Solution 1 Constructor
 var hashMap = {
     Set: function (key, value) {
         this[key] = value
