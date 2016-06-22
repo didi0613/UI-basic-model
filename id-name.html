@@ -1,0 +1,35 @@
+<html>
+<head>
+    <style>
+        #container {
+            font-family: monospace;
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="container"></div>
+
+<script>
+    var url = "";
+    var arr = [{id: 1, name: 'a'},
+        {id: 2, name: 'b'},
+        {id: 3, name: 'c'},
+        {id: 4, name: 'd'},
+        {id: 5, name: 'e'},
+        {id: 6, name: 'f'},
+        {id: 7, name: 'g'}];
+
+    function test() {
+        arr.forEach(function (a) {
+            url += "<a href=\"link\" id=" + a.id + " name=" + a.name + ">Hello<\/a><br/>";
+        });
+        return url;
+    }
+
+    $('#container').append(test());
+</script>
+</body>
+</html>
