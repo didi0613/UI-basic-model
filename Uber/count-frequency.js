@@ -1,34 +1,18 @@
-function getFrequency(mystring, numofwords) {
-    mystring = mystring.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/g, "");
-    var words = mystring.split(' '),
-        sortedWords = words.sort(),
-        uniqueWords = [],
-        d = {},
-        wordcount = 1,
-        result = [];
+function getFrequency(string) {
+    var cleanString = string.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/g, ""),
+        words = cleanString.split(' '),
+        frequencies = {},
+        word, i, ret = {};
 
-    for (var i = 0; i < sortedWords.length; i++) {
-
-        var currentword = sortedWords[i];
-
-        if (sortedWords[i + 1] === currentword) {
-            wordcount++;
-        }
-
-        if (!d[currentword]) {
-            d[currentword] = true;
-            uniqueWords.push({word: currentword, count: wordcount});
-        }
+    for (i = 0; i < words.length; i++) {
+        word = words[i];
+        frequencies[word] = frequencies[word] || 0;
+        frequencies[word]++;
     }
-
-    uniqueWords = uniqueWords.slice(0, numofwords).sort(function (a, b) {
-        return b.count - a.count;
+    words = Object.keys(frequencies);
+    return words.sort(function (a, b) {
+        return frequencies[b] - frequencies[a];
     });
-
-    for (i = 0; i < uniqueWords.length; i++) {
-
-        result.push(uniqueWords[i].word);
-    }
-
-    return result.toString();
 }
+
+console.log(getFrequency("hello world hello dear uber uber is the best"));
