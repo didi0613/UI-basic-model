@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="file" id="fileInput"/>
+<p>Here are the comments:</p>
+<div id="fileContent"></div>
+
+<script>
+    var multiFlag = false;
+    function getComments(str, line) {
+        var ret = "";
+        if (multiFlag) {
+            ret = str;
+        } else {
+            if (str.indexOf("//") >= 0) {
+                ret = str.substr(str.indexOf("//")) + " line: " + line;
+            }
+
+            if (str.indexOf("/*") >= 0) {
+                if (str.indexOf("*/") >= 0) {
+                    ret = str.substring(str.indexOf("/*"), str.indexOf("*/") + 2) + " line: " + line;
+                } else {
+                    multiFlag = true;
+                    return str.substr(str.indexOf("/*"));
+                }
+            } else {
+                if (str.indexOf("*/") >= 0) {
+                    multiFlag = false;
+                    return str.substring(0, str.lastIndexOf("*/") + 2) + " line: " + line;
+                }
+            }
+        }
+        return ret;
+    }
+
+    function readFile(evt) {
+        var f = evt.target.files[0];
+        if (f) {
+            var r = new FileReader();
+            r.onload = function (e) {
+                var content = e.target.result.split('\n');
+                var ret = "";
+                for (var i = 0; i < content.length; i++) {
+                    if (content[i].indexOf("/*") >= 0 && content[i].indexOf("*/") < 0) {
+                        multiFlag = true;
+                        $("#fileContent").append("<p>" + getComments(content[i], i) + "</p>");
+                    } else {
+                        $("#fileContent").append("<p>" + getComments(content[i], i) + "</p>");
+                        if (content[i].indexOf("*/") >= 0) {
+                            multiFlag = false;
+                        }
+                    }
+                }
+            };
+            r.readAsText(f);
+        }
+    }
+
+    document.getElementById("fileInput").addEventListener("change", readFile, false);
+</script>
+</body>
+</html>
