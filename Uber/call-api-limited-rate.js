@@ -1,6 +1,6 @@
-function callAPILimitedRate() {
+function callAPILimitedRate(limit) {
     var curTime = new Date();
-    var startTime = null;
+    var startTime = curTime;
     var count = 0;
     var difference = curTime - startTime;
     if (difference > 60 * 1000) {
@@ -8,5 +8,11 @@ function callAPILimitedRate() {
         startTime = curTime;
     } else {
         count++;
+
+        if (count > limit) {
+            console.error("Exceed limitations");
+        } else {
+            // Call API
+        }
     }
 }
