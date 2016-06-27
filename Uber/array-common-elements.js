@@ -20,3 +20,5 @@ function findCommon(arr1, arr2) {
 var arr1 = [1, 2, 3, 4, 5, 6];
 var arr2 = [3, 5, 7];
 console.log("Intersection: ", findCommon(arr1, arr2));
+
+// Time Complexity: O(m+n)
