@@ -1,5 +1,6 @@
 // DP Solution
 // Without Dictionary
+// http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
 function checkWord(s) {
     var len = s.length;
 
