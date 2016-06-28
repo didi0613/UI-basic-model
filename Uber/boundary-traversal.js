@@ -51,6 +51,3 @@ function printLeaves(node, ret) {
         printLeaves(node.right);
     }
 }
-
-// Time Complexity: O(n)
-// where n is the number of nodes in binary tree.

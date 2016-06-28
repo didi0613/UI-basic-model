@@ -27,8 +27,8 @@
       <file leaf-file-name="boundary-traversal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Uber/boundary-traversal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="263">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -609,12 +609,12 @@
       <updated>1466547655079</updated>
       <workItem from="1466547656406" duration="9857000" />
       <workItem from="1466876518446" duration="364000" />
-      <workItem from="1466967829959" duration="13310000" />
+      <workItem from="1466967829959" duration="13568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23531000" />
+    <option name="totallyTimeSpent" value="23789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Uber/boundary-traversal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="263">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
