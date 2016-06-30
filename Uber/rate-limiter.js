@@ -1,42 +1,16 @@
-function RateLimit(fn, delay, context) {
-    var queue = [], timer = null;
-
-    function processQueue() {
-        var item = queue.shift();
-        if (item)
-            fn.apply(item.context, item.arguments);
-        if (queue.length === 0)
-            clearInterval(timer);
-        timer = null;
-    }
-
-    return function limited() {
-        queue.push({
-            context: context || this,
-            arguments: [].slice.call(arguments)
-        });
-        if (!timer) {
-            processQueue();  // start immediately on the first invocation
-            timer = setInterval(processQueue, delay);
+function rateLimiter(fn, limit) {
+    var startTime = new Date();
+    var currentTime = new Date();
+    var count = 0;
+    if (currentTime - startTime > 60 * 1000) {
+        count === 0;
+        startTime = currentTime;
+    } else {
+        if (count > limit) {
+            console.error("Exceed the limit");
+        } else {
+            count++;
+            fn.apply(this, arguments);
         }
     }
-
 }
-
-function foo(param1, param2) {
-    var p = document.createElement('p');
-    p.innerText = param1 + (param2 || '');
-    document.body.appendChild(p);
-}
-
-foo('Starting');
-var bar = RateLimit(foo, 2000);
-bar(1, 'baz');
-bar(2, 'quux');
-bar(3);
-bar(4, 'optional');
-bar(5, 'parameters');
-bar(6);
-bar(7);
-bar(8);
-bar(9);
