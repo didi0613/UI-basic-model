@@ -2,7 +2,7 @@ function eventListener() {
     var map = [];
 
     function register(name, event) {
-        if (map.contains(name)) {
+        if (name in map) {
             map[name].push(event);
         } else {
             map[name] = event;
@@ -10,14 +10,16 @@ function eventListener() {
     }
 
     function unregister(name, event) {
-        if (map.contains(name)) {
+        if (name in map) {
             map[name] = null;
         }
     }
 
     function post(name, data) {
-        var event = new Event();
-        event.doEvent(data);
+        var events = map[name];
+        events.forEach(function (e) {
+            e.doEvent(data);
+        });
         this.register(name, event);
     }
 }
