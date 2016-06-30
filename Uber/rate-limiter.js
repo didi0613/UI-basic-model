@@ -14,3 +14,5 @@ function rateLimiter(fn, limit) {
         }
     }
 }
+
+// http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/
