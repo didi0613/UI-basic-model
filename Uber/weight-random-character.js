@@ -15,3 +15,5 @@
 // 如果rand < elem.cumulativeWeight则返回elem.label；
 
 // 3. 在产生随机数后可以进一步把搜索改为二分搜索
+
+// http://blog.csdn.net/ajian005/article/details/19301689
