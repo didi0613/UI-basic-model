@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <nav>
+        <a>My Company</a> |
+        <a>Products</a> |
+        <a>Resources</a> |
+        <a>Blog</a>
+    </nav>
+    <section>
+        <!--Submit 的时候回post到action指定的url,因此不需要再submit button上面绑定click事件-->
+        <form class="form-content" action="/employer/submit.html" method="post">
+            <h3>Unlock your Free Employer Profile</h3>
+            <p>See who's viewing your profile, update company info and respond to reviews. Getting started is easy.</p>
+            <input class="first-name" placeholder="First Name"/>
+            <input class="last-name" placeholder="Last Name"/>
+            <br>
+            <input class="job" placeholder="Job Title"/>
+            <br>
+            <input class="employer" placeholder="Employer"/>
+            <br>
+            <input class="work-email" placeholder="Work Email"/>
+            <br>
+
+            <table>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><span>I represent HR, Recruiting, Marketing, PR, or am an executive at my company and I agree to Glassdoor's Terms of Use and Privacy Policy on behalf of my company.</span></td>
+                </tr>
+            </table>
+
+            <input class="submit-button" type="submit" value="Claim your free profile">
+        </form>
+    </section>
+</body>
+</html>

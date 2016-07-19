@@ -1,0 +1,50 @@
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+section {
+    background: #eee;
+    text-align: center;
+}
+
+.form-content {
+    text-align: center;
+    background-color: #dddddd;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form-content .first-name, .form-content .last-name {
+    width: 45%;
+    height: 30px;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
+
+.form-content .job, .form-content .employer, .form-content .work-email {
+    width: 93%;
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+    height: 30px;
+}
+
+table tr td {
+    vertical-align: baseline;
+}
+
+.submit-button {
+    background-color: cornflowerblue;
+    border: none;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.submit-button:hover, input {
+    cursor: pointer;
+}
