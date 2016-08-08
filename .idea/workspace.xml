@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/subsequent-sum.js" afterPath="$PROJECT_DIR$/Yahoo/subsequent-sum.js" />
-    </list>
+    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="" />
     <ignored path="UI-basic-model.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -644,12 +642,12 @@
       <workItem from="1468906889472" duration="2523000" />
       <workItem from="1468961837890" duration="476000" />
       <workItem from="1470275172241" duration="289000" />
-      <workItem from="1470673857890" duration="97000" />
+      <workItem from="1470673857890" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41296000" />
+    <option name="totallyTimeSpent" value="41304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
