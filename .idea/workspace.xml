@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="" />
+    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Yahoo/random-shuffle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="UI-basic-model.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="first-unique.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Yahoo/first-unique.js">
+      <file leaf-file-name="random-shuffle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/Yahoo/merge-sorted-linked-list.js" />
         <option value="$PROJECT_DIR$/Yahoo/subsequence-sum.js" />
         <option value="$PROJECT_DIR$/Yahoo/first-unique.js" />
+        <option value="$PROJECT_DIR$/Yahoo/random-shuffle.js" />
       </list>
     </option>
   </component>
@@ -645,12 +647,12 @@
       <workItem from="1468906889472" duration="2523000" />
       <workItem from="1468961837890" duration="476000" />
       <workItem from="1470275172241" duration="289000" />
-      <workItem from="1470673857890" duration="4002000" />
+      <workItem from="1470673857890" duration="4449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45201000" />
+    <option name="totallyTimeSpent" value="45648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,13 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedIn/semantic-markup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/semantic-markup.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1062,6 +1057,14 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
