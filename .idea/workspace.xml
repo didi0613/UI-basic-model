@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Yahoo/random-shuffle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/random-shuffle.js" afterPath="$PROJECT_DIR$/Yahoo/random-shuffle.js" />
     </list>
     <ignored path="UI-basic-model.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="random-shuffle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -647,12 +646,12 @@
       <workItem from="1468906889472" duration="2523000" />
       <workItem from="1468961837890" duration="476000" />
       <workItem from="1470275172241" duration="289000" />
-      <workItem from="1470673857890" duration="4449000" />
+      <workItem from="1470673857890" duration="4458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45648000" />
+    <option name="totallyTimeSpent" value="45657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1062,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -12,6 +12,6 @@ function shuffle(array) {
     }
 
     return array;
-};
+}
 
 console.log("xxxxx", shuffle([1,2,3,4,5]));
