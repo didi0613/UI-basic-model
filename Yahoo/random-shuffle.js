@@ -1,12 +1,11 @@
 function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    var currentIndex = array.length;
 
     while (currentIndex !== 0) {
-
-        randomIndex = Math.floor(Math.random() * currentIndex);
+        var randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
-        temporaryValue = array[currentIndex];
+        var temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
     }
@@ -14,4 +13,4 @@ function shuffle(array) {
     return array;
 }
 
-console.log("xxxxx", shuffle([1,2,3,4,5]));
+console.log("xxxxx", shuffle([1, 2, 3, 4, 5]));

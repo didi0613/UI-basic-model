@@ -27,8 +27,8 @@
       <file leaf-file-name="random-shuffle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -646,12 +646,12 @@
       <workItem from="1468906889472" duration="2523000" />
       <workItem from="1468961837890" duration="476000" />
       <workItem from="1470275172241" duration="289000" />
-      <workItem from="1470673857890" duration="4458000" />
+      <workItem from="1470673857890" duration="4534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45657000" />
+    <option name="totallyTimeSpent" value="45733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1061,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yahoo/random-shuffle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
