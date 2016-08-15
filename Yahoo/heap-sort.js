@@ -42,6 +42,5 @@ Array.prototype.heapAdjust = function (i, j) {
     }
 };
 
-var a = new Array();
-[].push.apply(a, [2, 3, 89, 57, 23, 72, 43, 105]);
+var a = [2, 3, 89, 57, 23, 72, 43, 105];
 console.log(a.heapSort());
