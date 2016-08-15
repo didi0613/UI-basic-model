@@ -1,6 +1,3 @@
-/**
- *AuthorJenaszhang
- */
 Array.prototype.buildMaxHeap = function () {
     for (var i = Math.floor(this.length / 2) - 1; i >= 0; i--) {
         this.heapAdjust(i, this.length);
