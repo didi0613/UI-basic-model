@@ -6,7 +6,7 @@ var sort = function (arr) {
         var temp = arr[i].split('').sort(function (a, b) {
             return a < b;
         }).join('');
-        debugger
+        
         if (hashmap[temp]) {
             hashmap[temp].push(arr[i]);
         } else {
