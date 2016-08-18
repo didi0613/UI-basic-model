@@ -27,7 +27,7 @@ var sort = function (arr) {
 
 console.log(sort(arr));
 
-// use
+// use 26 进制
 var arr = ["stop", "post", "eat", "tea", "tops", "apple"];
 
 function categorizeWords(arr) {
