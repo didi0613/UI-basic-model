@@ -27,8 +27,8 @@
       <file leaf-file-name="add-gas.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yahoo/add-gas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -653,12 +653,12 @@
       <workItem from="1470673857890" duration="5645000" />
       <workItem from="1471371576133" duration="1234000" />
       <workItem from="1471497629997" duration="1636000" />
-      <workItem from="1472420053789" duration="1112000" />
+      <workItem from="1472420053789" duration="1245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50826000" />
+    <option name="totallyTimeSpent" value="50959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yahoo/add-gas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="314">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
