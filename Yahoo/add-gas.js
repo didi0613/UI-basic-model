@@ -9,7 +9,7 @@
  */
 function minAddGas(arr) {
     var n = arr.length;
-    var dp = new Array(n + 1).fill(n + 1);
+    var dp = new Array(n).fill(n);
 
     dp[0] = 0;
     dp[1] = 0;
@@ -21,9 +21,8 @@ function minAddGas(arr) {
             }
         }
     }
-
-    return dp[n];
+    return dp[n - 1];
 }
 
-var arr = [100, 150, 200, 230, 350, 400];
+var arr = [100, 150, 200, 230, 300, 350, 400];
 console.log("xxxx", minAddGas(arr));
