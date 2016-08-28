@@ -11,7 +11,7 @@ function minAddGas(arr) {
     dp[0] = 0;
     dp[1] = 0;
 
-    for (var i = 2; i <= n; i++) {
+    for (var i = 2; i < n; i++) {
         for (var j = 0; j < i; j++) {
             if (arr[i] - arr[j] <= 100) {
                 dp[i] = Math.min(dp[i], dp[j] + 1);
@@ -29,3 +29,20 @@ console.log("xxxx", minAddGas(arr));
  每个station 有 cost [C0, C1, C2...]
  求使得 cost 最小，返回停车加油次数
  * */
+function minAddGas(cost) {
+    var n = cost.length;
+    var f = new Array(n + 1).fill(Number.MAX_VALUE);
+
+    f[0] = 0;
+    f[1] = cost[0];
+
+    for (var i = 2; i <= n; i++) {
+        for (var j = 0; j < i; j++) {
+            f[i] = Math.min(f[i], f[j] + cost[j]);
+        }
+    }
+    return f[n];
+}
+
+var cost = [60, 70, 120, 80, 90];
+console.log("xxxx", minAddGas(cost));
