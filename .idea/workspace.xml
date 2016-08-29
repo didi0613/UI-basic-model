@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/add-gas.js" afterPath="$PROJECT_DIR$/Yahoo/add-gas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/auto-complete.js" afterPath="$PROJECT_DIR$/Yahoo/auto-complete.js" />
     </list>
     <ignored path="UI-basic-model.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,14 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add-gas.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Yahoo/add-gas.js">
+      <file leaf-file-name="auto-complete.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Yahoo/auto-complete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="329">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,11 +100,11 @@
         <option value="$PROJECT_DIR$/Yahoo/first-unique.js" />
         <option value="$PROJECT_DIR$/Yahoo/random-shuffle.js" />
         <option value="$PROJECT_DIR$/Yahoo/heap-sort.js" />
-        <option value="$PROJECT_DIR$/Yahoo/auto-complete.js" />
         <option value="$PROJECT_DIR$/Yahoo/remove-duplicate.js" />
         <option value="$PROJECT_DIR$/Yahoo/category-words.js" />
         <option value="$PROJECT_DIR$/Yahoo/number-range.js" />
         <option value="$PROJECT_DIR$/Yahoo/add-gas.js" />
+        <option value="$PROJECT_DIR$/Yahoo/auto-complete.js" />
       </list>
     </option>
   </component>
@@ -653,12 +651,12 @@
       <workItem from="1470673857890" duration="5645000" />
       <workItem from="1471371576133" duration="1234000" />
       <workItem from="1471497629997" duration="1636000" />
-      <workItem from="1472420053789" duration="1245000" />
+      <workItem from="1472420053789" duration="2576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50959000" />
+    <option name="totallyTimeSpent" value="52290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,13 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedIn/event-bubbling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/isDesendant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1002,7 +993,7 @@
         <state relative-caret-position="-183">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1020,23 +1011,8 @@
         <state relative-caret-position="315">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yahoo/auto-complete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yahoo/category-words.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,18 +1028,42 @@
         <state relative-caret-position="284">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yahoo/add-gas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="254">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/category-words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/event-bubbling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/auto-complete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
