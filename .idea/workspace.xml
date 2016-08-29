@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/auto-complete.js" afterPath="$PROJECT_DIR$/Yahoo/auto-complete.js" />
     </list>
     <ignored path="UI-basic-model.iws" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="auto-complete.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yahoo/auto-complete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            <state relative-caret-position="209">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -651,12 +652,12 @@
       <workItem from="1470673857890" duration="5645000" />
       <workItem from="1471371576133" duration="1234000" />
       <workItem from="1471497629997" duration="1636000" />
-      <workItem from="1472420053789" duration="2576000" />
+      <workItem from="1472420053789" duration="2677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52290000" />
+    <option name="totallyTimeSpent" value="52391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1061,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yahoo/auto-complete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="209">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding />
         </state>
       </provider>

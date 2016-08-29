@@ -58,7 +58,11 @@ var list = $('ul');
 
 $('input').on('keyup change', function (e) {
     userInput = $(this).val();
-    // Clear the ul contnet;
+
+    // clear the list
+    list.empty();
+    selectedCountries = [];
+
     countries.forEach(function (country) {
         if (_.includes(country, userInput)) {
             selectedCountries.push(country);
