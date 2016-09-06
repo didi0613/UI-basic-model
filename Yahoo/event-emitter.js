@@ -15,7 +15,7 @@ var events = (function () {
                 remove: function () {
                     delete topics[topic][index];
                 }
-            };
+            };    
         },
         publish: function (topic, info) {
             // If the topic doesn't exist, or there's no listeners in queue, just leave
