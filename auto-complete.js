@@ -23,8 +23,8 @@ $('input').on('keyup change', function (e) {
 
 ////////////////////HTML//////////////////////////////
 // <input placeholder="please enter..."/>
-//     <ul class="mylist">
-//     </ul>
+// <ul class="mylist">
+// </ul>
 
 /////////////////CSS///////////////////////
 // li {
