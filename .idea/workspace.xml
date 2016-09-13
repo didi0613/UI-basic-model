@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="" />
+    <list default="true" id="d00f984e-07c7-4005-8ca4-82e3a19e98d0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setInterval-clearInterval.js" afterPath="$PROJECT_DIR$/setInterval-clearInterval.js" />
+    </list>
     <ignored path="UI-basic-model.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="setInterval-clearInterval.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setInterval-clearInterval.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -642,12 +644,12 @@
       <workItem from="1473191111574" duration="1537000" />
       <workItem from="1473453330431" duration="640000" />
       <workItem from="1473561721094" duration="746000" />
-      <workItem from="1473652424569" duration="2096000" />
+      <workItem from="1473652424569" duration="2243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60603000" />
+    <option name="totallyTimeSpent" value="60750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1072,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setInterval-clearInterval.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
