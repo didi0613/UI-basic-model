@@ -1,7 +1,7 @@
 var timeoutId = null;
 
 function interval(func, wait, times) {
-    var interv = function (w, t) {
+    setTimeout(function (wait, times) {
         return function () {
             if (typeof t === "undefined" || t-- > 0) {
                 timeoutId = setTimeout(interv, w);
@@ -14,9 +14,7 @@ function interval(func, wait, times) {
                 }
             }
         }
-    }(wait, times);
-
-    setTimeout(interv, wait);
+    }, wait);
 }
 
 interval(function () {

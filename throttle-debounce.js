@@ -14,16 +14,15 @@ var throttle = function (callback, limit) {
 var debounce = function (func, wait) {
     var timeout;
     return function () {
-        var later = function () {
-            timeout = null;
-            func.apply();
-        };
         clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
+        timeout = setTimeout(function () {
+            func.apply();
+            timeout = null;
+        }, wait);
     };
 };
 
-$('button').click(debounce(function () {
+$('button').click (debounce(function () {
     $('#container').append('<div>hello world</div>');
 }, 3000));
 
