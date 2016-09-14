@@ -16,7 +16,7 @@ var debounce = function (func, wait) {
     return function () {
         clearTimeout(timeout);
         timeout = setTimeout(function () {
-            func.apply();
+            func.call();
             timeout = null;
         }, wait);
     };
