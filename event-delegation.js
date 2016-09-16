@@ -6,3 +6,9 @@
 // <li id="post-5">Item 5</li>
 // <li id="post-6">Item 6</li>
 // </ul>
+document.getElementById("parent-list").addEventListener('click', function (e) {
+    if (e.target && e.target.id === "post-*") {
+        console.log("xxxxxx");
+        e.preventDefault();
+    }
+});
