@@ -36,20 +36,18 @@ function getArticlePage(page, articlesPerPage = 16) {
 	return pageElement;
 }
 
-function fetchPage(page) {
-	articleList.appendChild(getArticlePage(page));
-}
-
 function addPage(page) {
-	fetchPage(page);
+	articleList.appendChild(getArticlePage(page));
 }
 
 const articleList = document.getElementById('article-list');
 const articleListPagination = document.getElementById('article-list-pagination');
 let page = 0;
 
+// initialize the page
 addPage(++page);
 
+// Triggered by scrolling
 window.onscroll = function() {
 	if ( window.pageYOffset < (document.body.scrollHeight - window.innerHeight)) return;
 	addPage(++page);
