@@ -9,6 +9,7 @@
 document.getElementById("parent-list").addEventListener('click', function (e) {
     if (e.target && e.target.id === "post-*") {
         console.log("xxxxxx");
+        // if the click is called, the default action of the event will not be triggered
         e.preventDefault();
     }
 });
