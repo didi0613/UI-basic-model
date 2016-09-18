@@ -2,20 +2,6 @@ function getPageId(n) {
 	return 'article-page-' + n;
 }
 
-function getDocumentHeight() {
-	const body = document.body;
-	const html = document.documentElement;
-
-	return Math.max(
-		body.scrollHeight, body.offsetHeight,
-		html.clientHeight, html.scrollHeight, html.offsetHeight
-	);
-};
-
-function getScrollTop() {
-	return (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-}
-
 function getArticleImage() {
 	const hash = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
 	const image = new Image;
@@ -50,29 +36,12 @@ function getArticlePage(page, articlesPerPage = 16) {
 	return pageElement;
 }
 
-function addPaginationPage(page) {
-	const pageLink = document.createElement('a');
-	pageLink.href = '#' + getPageId(page);
-	pageLink.innerHTML = page;
-
-	const listItem = document.createElement('li');
-	listItem.className = 'article-list__pagination__item';
-	listItem.appendChild(pageLink);
-
-	articleListPagination.appendChild(listItem);
-
-	if (page === 2) {
-		articleListPagination.classList.remove('article-list__pagination--inactive');
-	}
-}
-
 function fetchPage(page) {
 	articleList.appendChild(getArticlePage(page));
 }
 
 function addPage(page) {
 	fetchPage(page);
-	addPaginationPage(page);
 }
 
 const articleList = document.getElementById('article-list');
@@ -82,6 +51,6 @@ let page = 0;
 addPage(++page);
 
 window.onscroll = function() {
-	if (getScrollTop() < getDocumentHeight() - window.innerHeight) return;
+	if ( window.pageYOffset < (document.body.scrollHeight - window.innerHeight)) return;
 	addPage(++page);
 };
