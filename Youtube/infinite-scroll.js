@@ -1,7 +1,3 @@
-function getPageId(n) {
-	return 'article-page-' + n;
-}
-
 function getArticleImage() {
 	const hash = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
 	const image = new Image;
@@ -26,7 +22,6 @@ function getArticle() {
 
 function getArticlePage(page, articlesPerPage = 16) {
 	const pageElement = document.createElement('div');
-	pageElement.id = getPageId(page);
 	pageElement.className = 'article-list__page';
 
 	while (articlesPerPage--) {
@@ -41,7 +36,6 @@ function addPage(page) {
 }
 
 const articleList = document.getElementById('article-list');
-const articleListPagination = document.getElementById('article-list-pagination');
 let page = 0;
 
 // initialize the page
